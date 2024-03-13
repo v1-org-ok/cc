@@ -1,4 +1,4 @@
-angular.module('detailsView.detailsViewCtrl', []).controller(name, [
+angular.module('detailsView.detailsViewCtrl', []).controller('detailsView.detailsViewCtrl', [
 	'$scope'
 	'$log'
 	'$routeParams'

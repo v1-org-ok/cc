@@ -1,6 +1,4 @@
-name = 'index.indexCtrl'
-
-angular.module(name, []).controller(name, [
+angular.module('index.indexCtrl', []).controller('index.indexCtrl', [
 	'$log',
 	'$scope',
 	'common.services.env'

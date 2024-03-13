@@ -1,4 +1,4 @@
-angular.module('searchView.searchViewCtrl', []).controller(name, [
+angular.module('searchView.searchViewCtrl', []).controller('searchView.searchViewCtrl', [
 	'$scope'
 	'$log'
 	'$location'
